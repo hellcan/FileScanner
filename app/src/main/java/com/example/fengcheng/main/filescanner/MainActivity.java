@@ -217,6 +217,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        cancelScan();
     }
 
     //cancel scan mission
